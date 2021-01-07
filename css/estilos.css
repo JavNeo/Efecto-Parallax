@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: blue;
+	font-family: rale;
+}
+
+#bloque{
+	background: url('../imagenes/infinito.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	height: 500px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width: 500px;
+}
+
+
+#bloque h1{
+	text-align: center;
+	color: #2CB739;
+	font-family: rale;
+	padding-top: 180px;
+}
+
+p{
+	font-family: rale;
+	font-size: 20px;
+	color: white;
+}
+
+body{
+	background: url('../imagenes/ha.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+
+@font-face{
+	font-family: rale;
+	src: url("../fuentes/Raleway-Regular.ttf");
+}
